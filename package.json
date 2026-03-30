@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "predeploy": "npm --prefix dz16 run build",
+    "deploy": "npm --prefix dz16 run deploy"
+  },
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
